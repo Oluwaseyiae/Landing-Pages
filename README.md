@@ -77,3 +77,18 @@
 ## 📜 License
 
 <p>This project is licensed under the MIT License - see the LICENSE file for details.</p>
+
+
+
+
+## Show your support
+
+
+Give a ⭐ if you like this websites and kindly follow for more!
+
+<a href="https://twitter.com/kingdom2203" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="kingdom2203" height="30" width="40" /></a>
+
+
+Your support fuels my passion!
+<a href="https://www.buymeacoffee.com/kdom2227U" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+
