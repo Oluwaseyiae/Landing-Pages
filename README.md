@@ -29,25 +29,24 @@
 ## 📂 Directory Structure
 <p>Each landing page is organized into its own folder for easy navigation and usage. Below is the general structure of the repository:</p>
 
-<p>
-  landing-pages-collection/
-│
-├── landing-page-1/
-│   ├── index.html
-│   ├── styles.css
-│   ├── script.js
-│   └── assets/
-│       └── ...
-│
-├── landing-page-2/
-│   ├── index.html
-│   ├── styles.css
-│   ├── script.js
-│   └── assets/
-│       └── ...
-│
-└── README.md
-</p>
+  <p>landing-pages-collection/</p>
+  <p>│</p>
+  <p>├── landing-page-1/</p>
+  <p>│   ├── index.html</p>
+  <p>│   ├── styles.css</p>
+  <p>│   ├── script.js</p>
+  <p>│   └── assets/</p>
+  <p>│       └── ...</p>
+  <p>│</p>
+  <p>├── landing-page-2/</p>
+  <p>│   ├── index.html</p>
+  <p>│   ├── styles.css</p>
+  <p>│   ├── script.js</p>
+  <p>│   └── assets/</p>
+  <p>│       └── ...</p>
+  <p>│            </p>
+  <p>└── README.md</p>
+
 
 ## 🚀 Getting Started
 
