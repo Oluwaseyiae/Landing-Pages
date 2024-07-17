@@ -32,19 +32,30 @@
   <p>landing-pages-collection/</p>
   <p>│</p>
   <p>├── landing-page-1/</p>
-  <p>│   ├── index.html</p>
-  <p>│   ├── styles.css</p>
-  <p>│   ├── script.js</p>
-  <p>│   └── assets/</p>
-  <p>│       └── ...</p>
+  <p>|   └──public/</p>
+  <p>│       └──img/</p>
+  <p>│           ├──image.png</p>
+  <p>│       ├──index.html</p>
+  <p>│       ├──main.js</p>
+  <p>│       ├──style.css</p>
+  <p>|   └──src/</p>
+  <p>│       └── main.css</p>
+  <p>│   ├── package.json</p>
+  <p>│   ├── package-lock.json</p>
+  <p>│   ├── tailwind.config.js</p>
   <p>│</p>
   <p>├── landing-page-2/</p>
-  <p>│   ├── index.html</p>
-  <p>│   ├── styles.css</p>
-  <p>│   ├── script.js</p>
-  <p>│   └── assets/</p>
-  <p>│       └── ...</p>
-  <p>│            </p>
+  <p>|   └──public/</p>
+  <p>│       └──img/</p>
+  <p>│           ├──image.png</p>
+  <p>│       ├──index.html</p>
+  <p>│       ├──main.js</p>
+  <p>│       ├──style.css</p>
+  <p>|   └──src/</p>
+  <p>│       └── main.css</p>
+  <p>│   ├── package.json</p>
+  <p>│   ├── package-lock.json</p>
+  <p>│   ├── tailwind.config.js</p>
   <p>└── README.md</p>
 
 
@@ -53,14 +64,19 @@
 <p>To get started with any of the landing pages, follow these steps:</p>
 <li>1. Clone the Repository</li>
 <li>2. Navigate to a Landing Page Folder</li>
-<li>3. Open index.html in Your Browser to see the landing page in action</li>
+<li>3. Move package.json,package-lock.json and tailwind.config.js to a separate directory. Then move it back after initializing Node.js and Tailwind css.</li>
+<li>4. Initialize Node.js</li>
+<li>5. Install Tailwind CSS and Initialize it.</li>
+<li>6. Open index.html in Your Browser to see the landing page in action</li>
 
 ## 📦 Packages and Libraries
 
 <p>This repository utilizes the following packages and libraries:</p>
 <li>Tailwind CSS</li>
 <li>Javascript</li>
-<li></li>
+<li>JQuery </li>
+<li>Boxicon</li>
+<li>slick Carousel</li>
 
 
 ## 🤝 Contribution
