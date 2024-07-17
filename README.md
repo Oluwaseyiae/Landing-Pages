@@ -18,12 +18,12 @@
 ## 📄 Landing Pages
 <p>Here is the list of available landing pages:</p>
 
-<li>1. ThriveLink Hub: An online learning space<li>
-<li>Landing Page 2: Description or name of the landing page.<li>
-<li>Landing Page 3: Description or name of the landing page.<li>
-<li>Landing Page 4: Description or name of the landing page.<li>
-<li>Landing Page 5: Description or name of the landing page.<li>
-<li>Landing Page 6: Description or name of the landing page.<li>
+<p>1. ThriveLink Hub: An online learning space<l/>
+<p>Landing Page 2: Description or name of the landing page.</p>
+<p>Landing Page 3: Description or name of the landing page.</p>
+<p>Landing Page 4: Description or name of the landing page.</p>
+<p>Landing Page 5: Description or name of the landing page.</p>
+<p>Landing Page 6: Description or name of the landing page.</p>
 
 
 ## 📂 Directory Structure
