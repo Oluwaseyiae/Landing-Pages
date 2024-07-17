@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThriveLink Hub</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!---- Jquery -->
+
+    <!-- Packages -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!----Swiper-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!---- Animation on scroll -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+    <!---- Slick Carousel -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <!---- Boxicon -->
+    <!-- JS-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!----Swiper-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <!---- Slick Carousel -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body class="bg-white dark:bg-green-900">
+
+    <!-- Navbar -->
+
+    <nav
+        class="px-6 md:px-12 bg-white dark:bg-green-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-green-900">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <span class="self-center text-2xl font-bold whitespace-nowrap dark:text-white">ThriveLink
+                    Hub.</span>
+            </a>
+
+            <div class="flex md:order-2 space-x-3 rtl:space-x-reverse">
+                <button type="button"
+                    class="text-white bg-green-900 hover:bg-green-800  font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-green-500 dark:text-green-950 dark:hover:bg-green-400">
+                    Start Trial</button>
+                <button data-collapse-toggle="navbar-sticky" type="button"
+                    class="inline-flex items-center  p-2 w-10 h-10 justify-center text-sm text-primary-200 hover:text-white rounded-lg lg:hidden hover:bg-green-900  dark:text-white dark:hover:text-green-700 dark:hover:bg-white"
+                    aria-controls="navbar-sticky" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <i class='bx bx-menu text-4xl' aria-hidden="true"></i>
+
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full lg:flex md:w-auto md:order-1" id="navbar-sticky">
+                <ul
+                    class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white  md:dark:bg-primary-200 dark:border-green-800">
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-white bg-green-700 rounded md:bg-transparent md:text-green-700 md:p-0 md:dark:text-green-400"
+                            aria-current="page">Product</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-primary-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-green-400  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-primary-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-green-400  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-primary-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-green-400  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Insight</a>
+                    </li>
+
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-primary-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-green-400  dark:text-white dark:hover:bg-gra-700 dark:hover:text-white md:dark:hover:bg-transparent">About
+                            Us</a>
+                    </li>
+
+                </ul>
+            </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="px-6 md:px-12 bg-white dark:bg-green-900 pt-16">
+        <div class="grid max-w-screen-xl px-4 py-8 mx-auto gap-y-10 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+            <div class="mr-auto place-self-center lg:col-span-7">
+                <h1
+                    class="max-w-2xl mb-4 text-4xl font-semibold tracking-tight leading-10 text-black md:text-5xl xl:text-7xl dark:text-white">
+                    We provide digital course with experienced mentor.</h1>
+                <p class="max-w-2xl mb-6  text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-white">Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit. Saepe quisquam unde dolor ex, doloribus, repudiandae
+                    voluptas quibusdam fugiat debitis ducimus molestiae mollitia aperiam impedit repellendus vitae,
+                    aspernatur nulla beatae neque.</p>
+
+            </div>
+            <div class="block lg:mt-0 lg:col-span-5 lg:flex">
+                <img src="img/hero.jpg" alt="mockup">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 1 -->
+    <section class="px-6 md:px-12  pt-16">
+        <div
+            class="grid max-w-screen-xl place-self-center px-4 py-8 mx-auto gap-y-10  md:gap-8 lg:gap-x-10 md:py-16 md:grid-cols-12">
+            <div class="mr-auto place-self-center md:col-span-12 lg:col-span-5">
+                <h1
+                    class="max-w-2xl mb-4 text-4xl font-semibold tracking-tight leading-10  md:text-5xl xl:text-5xl dark:text-white">
+                    Different methods to start learning with us</h1>
+                <p class="max-w-2xl mb-6  text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit. Saepe quisquam unde dolor ex, doloribus, repudiandae
+                    voluptas quibusdam fugiat.</p>
+                <button type="button"
+                    class="text-white bg-green-900 hover:bg-green-800  font-medium rounded-lg text-sm px-5 py-3 text-center dark:bg-white dark:text-green-950 dark:hover:bg-green-400">
+                    Read More</button>
+
+            </div>
+
+            <div class="block md:col-span-12 lg:mt-0 lg:col-span-7 gap-x-5">
+                <div
+                    class="grid mr-auto place-self-center max-w-screen-xl lg:px-4 py-8 mx-auto gap-y-10 md:gap-8 gap-6 md:py-16 md:grid-cols-12">
+
+                    <!-- Box 1 -->
+                    <div
+                        class="max-w-sm p-6 bg-white border place-self-center border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700  md:col-span-6 lg:col-span-6">
+                        <div
+                            class="w-16 h-16 inline-flex justify-center items-center text-center rounded-full bg-orange-300">
+                            <i class='bx bxs-time text-3xl text-white'></i>
+                        </div>
+
+                        <a href="#">
+                            <h5 class="mb-2 mt-5 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                                Flexible Time</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Go to this step by step
+                            guideline process on how to certify for your weekly benefits:</p>
+                        <a href="#"
+                            class="inline-flex font-medium items-center text-center text-green-800 dark:text-white">
+                            Read More
+                            <i class='bx bx-right-arrow-alt tex-4xl'></i>
+                        </a>
+                    </div>
+
+                    <!-- Box 2 -->
+                    <div
+                        class="max-w-sm p-6 place-self-center bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 md:col-span-6 lg:col-span-6">
+                        <div
+                            class="w-16 h-16 inline-flex justify-center items-center text-center rounded-full bg-orange-300">
+                            <i class='bx bx-notepad text-3xl text-white'></i>
+
+                        </div>
+
+                        <a href="#">
+                            <h5 class="mb-2 mt-5 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                                Assignment Board</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Go to this step by step
+                            guideline process on how to certify for your weekly benefits:</p>
+                        <a href="#"
+                            class="inline-flex font-medium items-center text-center text-green-800 dark:text-white">
+                            Read More
+                            <i class='bx bx-right-arrow-alt tex-4xl'></i>
+                        </a>
+                    </div>
+
+                    <!-- Box 3 -->
+                    <div
+                        class="max-w-sm p-6 place-self-center bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 md:col-span-6 lg:col-span-6">
+                        <div
+                            class="w-16 h-16 inline-flex justify-center items-center text-center rounded-full bg-orange-300">
+                            <i class='bx bx-station text-3xl text-white'></i>
+
+                        </div>
+
+                        <a href="#">
+                            <h5 class="mb-2 mt-5 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                                Live Classes</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Go to this step by step
+                            guideline process on how to certify for your weekly benefits:</p>
+                        <a href="#"
+                            class="inline-flex font-medium items-center text-center text-green-800 dark:text-white">
+                            Read More
+                            <i class='bx bx-right-arrow-alt tex-4xl'></i>
+                        </a>
+                    </div>
+
+                    <!-- Box 4 -->
+                    <div
+                        class="max-w-sm p-6 place-self-center bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 md:col-span-6 lg:col-span-6">
+                        <div
+                            class="w-16 h-16 inline-flex justify-center items-center text-center rounded-full bg-orange-300">
+                            <i class='bx bxs-certification text-3xl text-white'></i>
+
+                        </div>
+
+                        <a href="#">
+                            <h5 class="mb-2 mt-5 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                                Certificated Plartform</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Go to this step by step
+                            guideline process on how to certify for your weekly benefits:</p>
+                        <a href="#"
+                            class="inline-flex font-medium items-center text-center text-green-800 dark:text-white">
+                            Read More
+                            <i class='bx bx-right-arrow-alt tex-4xl'></i>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 2 -->
+    <section class="px-6 md:px-12 pt-16 overflow-hidden">
+
+        <div class="justify-center text-center">
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold">Today class starting</h1>
+            <p class="text-gray-500 mt-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod enim
+                assumenda <br class="hidden md:flex">
+                rerum libero quos? Quae!</p>
+        </div>
+
+        <div
+            class="grid max-w-screen-xl place-self-center px-4 py-8 md:py-16 mx-auto gap-y-10  md:gap-8 md:gap-x-10  md:grid-cols-12">
+
+            <!-- class 1 -->
+            <div
+                class="max-w-sm bg-white rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 grid-cols-full md:col-span-4">
+                <a href="#">
+                    <img class="rounded-t-lg" src="img/class-1.jpg" alt="" />
+                </a>
+                <div class="p-5">
+                    <p class="text-gray-600 font-medium">Development</p>
+
+                    <a href="#">
+                        <h5 class="mb-2 mt-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Learn
+                            how to animate 3D in Microsoft word</h5>
+                    </a>
+
+                    <div class="inline-flex">
+                        <i class='bx bxs-star text-3xl text-orange-300'></i>
+                        <i class='bx bxs-star text-3xl text-orange-300'></i>
+                        <i class='bx bxs-star text-3xl text-orange-300'></i>
+                        <i class='bx bxs-star-half text-3xl text-orange-300'></i>
+                        <i class='bx bx-star text-3xl text-orange-300'></i>
+
+                        <p class="ml-5 font-light text-xl"> <span class="font-bold">4.5</span> (290 reviews)</p>
+                    </div>
+
+
+                    <div class="flex mt-5 justify-between items-center">
+                        <div class="inline-flex justify-center items-center rounded-full">
+                            <img src="img/profile-1.jpg" class="w-12 h-12 rounded-full">
+                            <P class="ml-3 font-semibold text-lg">Weslli Brike</P>
+                        </div>
+
+                        <p class="text-green-900 text-bold text-lg">$19.99</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- class 2 -->
+            <div
+                class="max-w-sm bg-white rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 grid-cols-full md:col-span-4">
+                <a href="#">
+                    <img class="rounded-t-lg" src="img/python.jpg" alt="" />
+                </a>
+                <div class="p-5">
+                    <p class="text-gray-600 font-medium">Development</p>
+
+                    <a href="#">
+                        <h5 class="mb-2 mt-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Learn
+                            basic python and react in visual studio</h5>
+                    </a>
+
+                    <div class="inline-flex">
+                        <i class='bx bxs-star text-3xl text-orange-300'></i>
+                        <i class='bx bxs-star text-3xl text-orange-300'></i>
+                        <i class='bx bxs-star text-3xl text-orange-300'></i>
+                        <i class='bx bxs-star-half text-3xl text-orange-300'></i>
+                        <i class='bx bx-star text-3xl text-orange-300'></i>
+
+                        <p class="ml-5 font-light text-xl"> <span class="font-bold">4.5</span> (210 reviews)</p>
+                    </div>
+
+
+                    <div class="flex mt-5 justify-between items-center">
+                        <div class="inline-flex justify-center items-center rounded-full">
+                            <img src="img/profile-1.jpg" class="w-12 h-12 rounded-full">
+                            <P class="ml-3 font-semibold text-lg">Bessie Cooper</P>
+                        </div>
+
+                        <p class="text-green-900 text-bold text-lg">$19.99</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- class 3 -->
+            <div
+                class="max-w-sm bg-white rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 grid-cols-full md:col-span-4">
+                <a href="#">
+                    <img class="rounded-t-lg" src="img/javascript.jpg" alt="" />
+                </a>
+                <div class="p-5">
+                    <p class="text-gray-600 font-medium">Development</p>
+
+                    <a href="#">
+                        <h5 class="mb-2 mt-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Learn
+                            Javascript for Frontend Web Development</h5>
+                    </a>
+
+                    <div class="inline-flex">
+                        <i class='bx bxs-star text-3xl text-orange-300'></i>
+                        <i class='bx bxs-star text-3xl text-orange-300'></i>
+                        <i class='bx bxs-star text-3xl text-orange-300'></i>
+                        <i class='bx bxs-star-half text-3xl text-orange-300'></i>
+                        <i class='bx bx-star text-3xl text-orange-300'></i>
+
+                        <p class="ml-5 font-light text-xl"> <span class="font-bold">4.5</span> (210 reviews)</p>
+                    </div>
+
+
+                    <div class="flex mt-5 justify-between items-center">
+                        <div class="inline-flex justify-center items-center rounded-full">
+                            <img src="img/profile-1.jpg" class="w-12 h-12 rounded-full">
+                            <P class="ml-3 font-semibold text-lg">Bessie Cooper</P>
+                        </div>
+
+                        <p class="text-green-900 text-bold text-lg">$19.99</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Section 3 -->
+    <section class="px-6 md:px-12 bg-white pt-16 border  border-b-1">
+        <div class="grid max-w-screen-xl px-4 py-8 mx-auto gap-y-10 md:gap-8 xl:gap-0 md:py-16 md:grid-cols-12">
+
+            <div class="block md:col-span-6 lg:mt-0 lg:col-span-5 md:flex">
+                <img src="img/teaching.jpg" alt="mockup">
+            </div>
+
+            <div class="ml-auto place-self-center md:col-span-6 lg:col-span-7">
+                <div class="block">
+                    <h1
+                        class="max-w-2xl mb-4 text-4xl font-semibold tracking-tight leading-10  md:text-5xl xl:text-6xl dark:text-white">
+                        Teach something useful for everyone</h1>
+                    <p class="max-w-2xl mb-6  text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Our
+                        personalized counseling sessions provide tailored guidance and support to help you achieve your
+                        dream tech career. </p>
+
+                </div>
+
+
+
+                <div class=" bg-white rounded-lg  dark:bg-gray-800" id="stats" role="tabpanel"
+                    aria-labelledby="stats-tab">
+                    <dl class="inline-flex justify-center items-center gap-x-10">
+                        <div class="flex flex-col items-center justify-center">
+                            <dt class="mb-2 text-3xl font-extrabold">73k</dt>
+                            <dd class="text-gray-500 text=lg dark:text-gray-400">Active User</dd>
+                        </div>
+                        <div class="flex flex-col items-center justify-center">
+                            <dt class="mb-2 text-3xl font-extrabold">52k</dt>
+                            <dd class="text-gray-500 text=lg dark:text-gray-400">Mentor</dd>
+                        </div>
+                        <div class="flex flex-col items-center justify-center">
+                            <dt class="mb-2 text-3xl font-extrabold">120+</dt>
+                            <dd class="text-gray-500 text=lg dark:text-gray-400">Course Category</dd>
+                        </div>
+                    </dl>
+                </div>
+
+
+                <button type="button"
+                    class="text-white bg-green-900 hover:bg-green-800 mt-10  font-medium rounded-lg text-lg px-5 py-3 text-center dark:bg-white dark:text-green-950 dark:hover:bg-green-400">
+                    Become Mentor</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Section 4 -->
+    <section class="px-6 md:px-12 bg-white  pt-16 border  border-b-1 overflow-hidden">
+        <div class="grid max-w-screen-xl px-4 py-8 mx-auto gap-y-10 md:gap-8 gap-x-10 md:py-16 md:grid-cols-12">
+            <div class="mr-auto place-self-center md:col-span-12 lg:col-span-4">
+                <h1
+                    class="max-w-2xl mb-4 text-4xl font-semibold tracking-tight leading-10  md:text-5xl xl:text-5xl dark:text-white">
+                    Our members love what we do</h1>
+                <p class="max-w-2xl mb-6  text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit. Saepe quisquam unde dolor ex, doloribus, repudiandae.
+                </p>
+                <button type="button"
+                    class="text-white bg-green-900 hover:bg-green-800  font-medium rounded-lg text-lg px-5 py-3 text-center dark:bg-white dark:text-green-950 dark:hover:bg-green-400">
+                    Give us Quote</button>
+
+            </div>
+
+            <div class="block md:col-span-8 lg:mt-0 lg:col-span-8 gap-x-5 overflow-hidden">
+                <div
+                    class="quote flex mr-auto place-self-center max-w-screen-xl lg:px-4 py-8 mx-auto gap-y-10 md:gap-8 gap-x-10 md:py-16">
+
+
+                    <!-- Testimonial 1 -->
+                    <div
+                        class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <i class='bx bxs-quote-alt-left text-4xl text-indigo-600'></i>
+
+                        <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Cupiditate quas beatae dolores asperiores adipisci quos quam
+                            placeat quisquam tempora vitae debitis et ab autem non totam similique, perspiciatis animi.
+                            At.</p>
+                        <a href="#" class="inline-flex font-medium items-center">
+                            <img src="img/profile-1.jpg" class="h-12 w-12 rounded-full">
+                            <p class="text-bold ml-3">Annette Black</p>
+                        </a>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div
+                        class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <i class='bx bxs-quote-alt-left text-4xl text-indigo-600'></i>
+
+                        <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Cupiditate quas beatae dolores asperiores adipisci quos quam
+                            placeat quisquam tempora vitae debitis et ab autem non totam similique, perspiciatis animi.
+                            At.</p>
+                        <a href="#" class="inline-flex font-medium items-center">
+                            <img src="img/profile-1.jpg" class="h-12 w-12 rounded-full">
+                            <p class="text-bold ml-3">Annette Black</p>
+                        </a>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div
+                        class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <i class='bx bxs-quote-alt-left text-4xl text-indigo-600'></i>
+
+                        <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Cupiditate quas beatae dolores asperiores adipisci quos quam
+                            placeat quisquam tempora vitae debitis et ab autem non totam similique, perspiciatis animi.
+                            At.</p>
+                        <a href="#" class="inline-flex font-medium items-center">
+                            <img src="img/profile-1.jpg" class="h-12 w-12 rounded-full">
+                            <p class="text-bold ml-3">Annette Black</p>
+                        </a>
+                    </div>
+
+                    <!-- Testimonial 4 -->
+                    <div
+                        class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <i class='bx bxs-quote-alt-left text-4xl text-indigo-600'></i>
+
+                        <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Cupiditate quas beatae dolores asperiores adipisci quos quam
+                            placeat quisquam tempora vitae debitis et ab autem non totam similique, perspiciatis animi.
+                            At.</p>
+                        <a href="#" class="inline-flex font-medium items-center">
+                            <img src="img/profile-1.jpg" class="h-12 w-12 rounded-full">
+                            <p class="text-bold ml-3">Annette Black</p>
+                        </a>
+                    </div>
+
+                    <!-- Testimonial 5 -->
+                    <div
+                        class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <i class='bx bxs-quote-alt-left text-4xl text-indigo-600'></i>
+
+                        <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Cupiditate quas beatae dolores asperiores adipisci quos quam
+                            placeat quisquam tempora vitae debitis et ab autem non totam similique, perspiciatis animi.
+                            At.</p>
+                        <a href="#" class="inline-flex font-medium items-center">
+                            <img src="img/profile-1.jpg" class="h-12 w-12 rounded-full">
+                            <p class="text-bold ml-3">Annette Black</p>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="px-6 md:px-12 bg-white  pt-16">
+
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <div class="md:flex md:justify-between">
+
+                <div class="mb-10 md:mb-0 md:w-1/3">
+                    <a href="#" class="self-center text-2xl font-bold whitespace-nowrap dark:text-white">
+                        ThriveLink Hub
+                    </a>
+                    <p class="text-gray-400 mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                        doloribus sapiente consequatur
+                        exercitationem id maiores?</p>
+
+
+                    <div class="relative mt-10">
+                        <input type="Enter email"
+                            class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="Email Address" required />
+                        <button type="submit"
+                            class="text-white inline-flex justify-center absolute end-2.5 bottom-2.5 bg-green-900 hover:bg-green-800  font-medium rounded-full h-10 w-10 p-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"><i
+                                class='bx bx-right-arrow-alt text-2xl'></i></button>
+                    </div>
+
+
+                </div>
+
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div>
+                        <h2 class="mb-6 text-lg font-bold text-gray-900 dark:text-white">Careers</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Blog</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Help and Support</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:underline">Affliate</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-lg font-bold text-gray-900 dark:text-white">Terms</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline ">Privacy Policy</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Cookie Settings</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:underline">Sitemap</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-lg font-bold text-gray-900  dark:text-white">Social Media</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Instagram</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Facebook</a>
+                            </li>
+                            <li class="">
+                                <a href="#" class="hover:underline">X (Formaerly Twitter)</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

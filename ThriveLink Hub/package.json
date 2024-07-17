@@ -1,0 +1,14 @@
+{
+  "name": "thrive-link-hub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./src/main.css -o ./public/style.css --watch"
+  },
+  "author": "Oluwaseyi", 
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.5"
+  }
+}
