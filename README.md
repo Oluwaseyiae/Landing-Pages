@@ -18,7 +18,7 @@
 ## 📄 Landing Pages
 <p>Here is the list of available landing pages:</p>
 
-<li>Landing Page 1: Description or name of the landing page.<li>
+<li>1. ThriveLink Hub: An online learning space<li>
 <li>Landing Page 2: Description or name of the landing page.<li>
 <li>Landing Page 3: Description or name of the landing page.<li>
 <li>Landing Page 4: Description or name of the landing page.<li>
